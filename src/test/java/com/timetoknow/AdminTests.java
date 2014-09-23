@@ -18,7 +18,7 @@ public void testLogin () throws Exception {
     driver.findElement(By.xpath("//*[@id=\"username\"]")).clear();
     driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("time.to.know");
     driver.findElement(By.xpath("//*[@id=\"password\"]")).clear();
-    driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("12345");
+    driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("123456");
     driver.findElement(By.xpath("//*[@id=\"login\"]/input[@type=\"submit\"]")).click();
     driver.findElement(By.xpath("//*[@id=\"all-content\"]/div[4]/section/section[1]/section/section/section/div/a")).click();
     driver.findElement(By.xpath("//div[@id=\"showCustomizations\"]")).click();
