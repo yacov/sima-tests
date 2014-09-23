@@ -42,10 +42,10 @@
         </exclusion>
       </exclusions>
     </dependency>
-    <dependency>
-    	<groupId>org.seleniumhq.selenium</groupId>
-    	<artifactId>selenium-chrome-driver</artifactId>
-    	<version>2.43.1</version>
+	<dependency>
+      <groupId>ru.stqa.selenium</groupId>
+      <artifactId>webdriver-factory</artifactId>
+      <version>1.1.43</version>
     </dependency>
   </dependencies>
   <build>
